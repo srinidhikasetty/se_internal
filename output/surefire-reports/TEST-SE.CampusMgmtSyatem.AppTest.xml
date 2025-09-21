@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="SE.CampusMgmtSyatem.AppTest" time="0.11" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="SE.CampusMgmtSyatem.AppTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\se-internal\set-1\CampusMgmtSystem\target\test-classes;D:\se-internal\set-1\CampusMgmtSystem\target\classes;C:\Users\Dell\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Dell\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar;C:\Users\Dell\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="java.class.path" value="D:\se-internal\set-1\CampusMgmtSystem\output\test-classes;D:\se-internal\set-1\CampusMgmtSystem\output\classes;C:\Users\Dell\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Dell\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar;C:\Users\Dell\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire10843314274671906604\surefirebooter-20250921124124218_3.jar C:\Users\Dell\AppData\Local\Temp\surefire10843314274671906604 2025-09-21T12-41-23_888-jvmRun1 surefire-20250921124124218_1tmp surefire_0-20250921124124218_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire2590541997871180186\surefirebooter-20250921132814348_3.jar C:\Users\Dell\AppData\Local\Temp\surefire2590541997871180186 2025-09-21T13-28-14_165-jvmRun1 surefire-20250921132814348_1tmp surefire_0-20250921132814348_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\se-internal\set-1\CampusMgmtSystem\target\test-classes;D:\se-internal\set-1\CampusMgmtSystem\target\classes;C:\Users\Dell\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Dell\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar;C:\Users\Dell\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="surefire.test.class.path" value="D:\se-internal\set-1\CampusMgmtSystem\output\test-classes;D:\se-internal\set-1\CampusMgmtSystem\output\classes;C:\Users\Dell\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Dell\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar;C:\Users\Dell\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dell"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire10843314274671906604\surefirebooter-20250921124124218_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire2590541997871180186\surefirebooter-20250921132814348_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+9-LTS"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="SE.CampusMgmtSyatem.AppTest" time="0.019"/>
+  <testcase name="testApp" classname="SE.CampusMgmtSyatem.AppTest" time="0.004"/>
 </testsuite>
